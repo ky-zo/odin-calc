@@ -49,6 +49,11 @@ body {
     flex: 1;
 }
 
+.supporting:hover, .screenOp:hover, .main:hover {
+    transform: scale(1.2);
+    transition-duration: 100ms;
+}
+
 .main {
     font-size:  25px;
     font-weight: 900;
@@ -88,6 +93,7 @@ button {
 button:hover{
     transform: scale(1.2);
     transition-duration: 100ms;
+    font-size: larger;
 }
 
 button:active {
@@ -103,5 +109,10 @@ button:active {
 }
 
 .operator {
+    color: #EC7171;
+}
+
+.screenOp {
+    margin: 0 0 0 10px;
     color: #EC7171;
 }
